@@ -39,10 +39,6 @@
 
 ## 📸 Screenshot
 
-![Mobile screenshot](/iPhone-13-PRO-127.0.0.1%20(2).png);
-
-![Ipad screenshot](/iPad-PRO-11-127.0.0.1.png);
-
 ![Large screen screenshot](/Macbook-Air-127.0.0.1.png)
 
 
