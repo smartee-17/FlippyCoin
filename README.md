@@ -12,7 +12,7 @@
       Live Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solution/60062">
       Solution
     </a>
     <span> | </span>
@@ -21,6 +21,13 @@
     </a>
   </h3>
 </div>
+
+# FlippyCoin – A Coin Flip Guessing Game
+
+A simple but fun “flip the coin” web game — **with a twist**.  
+Instead of only flipping a coin, the game compares your guess with the computer’s random pick.  
+If both match when the coin flips, you earn a **correct point**; if not, it’s marked as **wrong**.  
+The app includes animations, sound effects, and a responsive mobile-friendly UI.
 
 <!-- TABLE OF CONTENTS -->
 
@@ -122,7 +129,7 @@ Special thanks to **OpenAI (ChatGPT)** for assisting with debugging, explanation
 
 ## 👤 Author
 
-- GitHub [@your-username](https://github.com/smartee-17)
+- GitHub [@Smartee-17](https://github.com/smartee-17)
 
 ## 📄 License
 
