@@ -24,7 +24,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
+## 📑 Table of Contents
 - [Screenshot](#-screenshot)
 - [Overview](#overview)
   - [Challenges I Faced](#-challenges-i-faced)
@@ -44,7 +44,7 @@
 
 <!-- OVERVIEW -->
 
-## Overview
+## 📖 Overview
 
 FlippyCoin is a lightweight interactive game built to practice DOM manipulation, animations, and responsive design.  
 You select **Heads** or **Tails**, the computer randomly chooses its own, and then the coin flips with animation.  
@@ -105,7 +105,7 @@ Positioning absolute/relative elements (like buttons and info tooltips) caused s
 - Handling audio smoothly in web apps  
 - Structuring a clean UI from scratch
 
-## Features
+## 🚀 Features
 
 - Smooth flip animation using CSS transforms  
 - Simple and clear UI  
@@ -116,11 +116,11 @@ Positioning absolute/relative elements (like buttons and info tooltips) caused s
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 Special thanks to **OpenAI (ChatGPT)** for assisting with debugging, explanations, and design help throughout the challenge.
 
-## Author
+## 👤 Author
 
 - GitHub [@your-username](https://github.com/smartee-17)
 
