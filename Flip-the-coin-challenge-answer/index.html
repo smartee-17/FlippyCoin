@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Flip the coin | devChallenges.io</title>
+
+  </head>
+  <body>
+
+    <!-- Main Starts -->
+    <main class="js-main">
+
+      <button class="reset-btn js-reset-btn">
+        <img src="resources/rotate-arrow.png" alt="reset">
+      </button>
+
+      <p class="js-reset-tool-tip hidden">
+        reset
+      </p>
+
+      <article class= "flex">
+          <h1 class="small-margin width">Flip the coin</h1>
+
+          <div class="rules-div margin width">
+            <p>Rules</p>
+
+            <!-- rules modal starts -->
+            <div class="js-modal hidden">
+
+              <div class="overlay js-overlay">
+    
+              </div>
+    
+              <div class="js-modal-content modal-content flex">
+
+                <button class="close-btn js-close-btn flex"
+                ><img src="resources/icon-close.svg" alt=""></button>
+
+                <div class="js-content"></div>
+
+              </div>
+
+            </div>
+
+             <!-- rules modal ends -->
+
+            <button class="js-info-btn info">
+              <img 
+              src="resources/icons8-info-48.png" alt="">
+
+              <span class="js-info-tool-tip hidden">
+                info
+              </span>
+            </button>
+
+
+          </div>
+
+          <div class="score-div flex margin width">
+            <h2>Guesses</h2>
+           
+            <div class="score-grid">
+               <div class="correct-guess padding">
+              Correct: <span class="js-correct-guess guess"></span>
+            </div>
+            <div class="wrong-guess padding">
+              Wrong: <span class="js-wrong-guess guess"></span>
+            </div>
+            </div>
+          </div>
+ 
+          <div class="image-div flex width">
+            <div class="coin js-coin">
+              <div class="front js-front">
+                <img 
+                src="resources/heads.svg" 
+                alt="heads"
+                class="coin-img"
+                >
+              </div>
+
+              <div class="back js-back hidden">
+                <img 
+                src="resources/tails.svg" 
+                alt="tails"
+                class="coin-img"
+                >
+              </div>
+            </div>
+
+            <img 
+            src="resources/shadow.svg" 
+            alt="shadow"
+            loading="eager"
+            class="shadow margin">
+          </div>
+
+
+          <div class="word-grid width">
+            <p class="word js-word"></p>
+          <!-- Result Messages -->
+            <p class="result-message js-coin-win hidden">
+              🎉 <strong>YOU WIN!</strong> <br>
+              Great job! You got it right! 🥳✨
+                </p>
+            
+                <p class="result-message js-coin-lose hidden">
+              😢 <strong>YOU LOSE!</strong> <br> Better luck next time! 💔🎲
+        </p>
+          </div>
+
+
+          <div class="button-grid width padding">
+            <div class="decision-btn">
+              <button class="js-head btn">
+                Head
+              </button>
+
+              <button class="js-tails btn">
+                Tails
+              </button>
+            </div>
+
+            <div>
+              <button class="js-flip-btn flip-btn btn">
+                Flip
+              </button>
+            </div>
+          </div>
+      </article>
+
+      <div class="author-info margin">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+      </div>
+    </main>
+       
+
+    <script src="script.js"></script>
+  </body>
+</html>
