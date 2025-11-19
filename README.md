@@ -8,7 +8,7 @@
 
 <div align ="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://smartee-17.github.io/FlippyCoin/Flip-the-coin-challenge-answer/">
       Live Demo
     </a>
     <span> | </span>
@@ -126,3 +126,4 @@ Special thanks to **OpenAI (ChatGPT)** for assisting with debugging, explanation
 
 ## 📄 License
 
+This project is for educational and personal portfolio use.
